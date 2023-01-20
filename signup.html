@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Logo.svg">
+    <title>IndieBrew Sign Up Page</title>
+</head>
+<body class="signup-body">
+    <div class="background-color-root">
+        <header class="signup-header">
+            <img src="Assets/Logo.svg" alt="IndieBrew-logo" class="header-indie-logo">
+            <div class="button-container">
+                <a class="back" href="index.html">
+                    <i class="fa-solid fa-backward backward"></i>
+                </a>
+                <p class="homepage-text">Back to homepage</p>
+            </div>
+        </header>
+        <main class="signup-main">
+            <div class="main-wrapper">
+                <div class="main-first-container">
+                    <h1 class="main-heading-signup">Create your personalized feed.</h1>
+                    <div class="main-details-container">
+                        🎈
+                        <div class="main-details">
+                            <p class="details-para"><span class="details-heading">Over 20 resources.</span> With resources ranging from Reddit to IndieHacker, we've got all your needs covered.</p>
+                        </div>
+                    </div>
+                    <div class="main-details-container">
+                        📰
+                        <div class="main-details">
+                            <p class="details-para"><span class="details-heading">Delivered weekly.</span> Every week at exactly Tuesday 12:00 P.M, EST - expect a value-packed digest right in your email.</p>
+                        </div>
+                    </div>
+                    <div class="main-details-container">
+                        💡
+                        <div class="main-details">
+                            <p class="details-para"><span class="details-heading">Unlimited ideas.</span> With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-second-container">
+                    <div class="main-second-container-wrapper">
+                        <h1 class="main-second-section-heading">Create your IndieBrew Account</h1>
+                        <div class="form-container">
+                            <label for="emial" class="form-heading">Email</label>
+                            <input type="email" name="email" id="emial" placeholder="jhon@example.com" class="input-field" required>
+                            <label for="uname" class="form-heading">Full Name</label>
+                            <input type="text" placeholder="Jhon Doe" name="uname" class="input-field" required>
+                            <label for="psw" class="form-heading">Password</label>
+                            <input type="password" name="psw" id="password" placeholder="At least 8 characters" class="input-field" required>
+                            <div class="terms-container" id="term-container">
+                                <label class="terms-text">By creating an account on IndieBrew, you agree to the <a href="#" class="terms">Terms & Conditions</a>.</label>
+                                <input type="checkbox" name="checkbox" id="checkbox" name="remember" class="terms-checkbox"> 
+                            </div>
+                            <button type="submit" class="acc-btn" id="account-btn">Create an Account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app/signup.js"></script>
+    <script src="https://kit.fontawesome.com/22f6533c22.js" crossorigin="anonymous"></script>
+</body>
+</html>
